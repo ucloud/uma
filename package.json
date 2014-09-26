@@ -1,0 +1,25 @@
+{
+    "name" : "monitorAgent",
+    "version" : "0.0.7",
+    "description" : "monitor agent deployed in Ucloud vm",
+    "private": true,
+    "author" : "unetwork",
+    "main" : "./agent.js",
+    "keywords" : [
+        "agent",
+        "monitoring"
+    ],
+    "repository" : {
+        "type" : "git"
+    },
+    "scripts" : {
+        "start": "sudo nohup node ./agent.js &"
+    },
+    "dependencies": {
+      "underscore": "1.6.x",
+      "request": "*",
+      "log4js": "*"
+    },
+    "devDependencies" : {
+    }
+}

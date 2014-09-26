@@ -1,0 +1,10 @@
+{
+  "dataHost": "http://api.spark.ucloud.cn",
+  "dataPort": 80,
+  "dataIntervalSec": 60000,
+
+  "publicKey": "CHANGEME",
+  "privateKey": "CHANGEME",
+  "uuid": "CHANGEME",
+  "region": "CHANGEME"
+}
